@@ -1,0 +1,191 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic body styles */
+body {
+    font-family: Arial, sans-serif; /* Use Arial font for the body */
+    line-height: 1.6; /* Set line height for readability */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background color */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure body takes at least full viewport height */
+}
+
+/* Header styles */
+header {
+    background-color: #333; /* Dark background color */
+    color: white; /* White text color */
+    padding: 10px 0; /* Padding around header */
+    text-align: center; /* Center text */
+}
+
+#home {
+    display: block; /* Ensure Home section is displayed initially */
+    padding: 50px;
+    background-color: #e0f7fa; /* Light blue background */
+    text-align: center; /* Center-align content */
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+#home h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+#home p {
+    color: #555;
+    font-size: 1.2em;
+}
+
+.about-container {
+    display: flex;
+    border: 1px solid #ccc; /* Light border around projects */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding inside project boxes */
+    margin: 0 auto; /* Margin around project boxes */
+    width: 100%; /* Set width of project boxes */
+    background-color: #fdfafa; /* Lighter background for better contrast */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add subtle shadow for a 3D effect */
+    text-align: justify;  /* Adjusts text alignment for an even look */
+  }
+  
+/* Hide all sections by default */
+.page-section {
+    display: none;
+}
+  
+/* Navigation styles */
+nav ul {
+    list-style: none; /* Remove bullet points from list */
+    padding: 0; /* Remove padding */
+}
+
+nav ul li {
+    display: inline; /* Display list items inline */
+    margin: 0 15px; /* Space between items */
+}
+
+nav ul li a {
+    color: white; /* White text color for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Section styles */
+section {
+    padding: 20px; /* Padding for sections */
+    margin: 10px; /* Margin around sections */
+    background: #ffffff; /* White background for sections */
+    border-radius: 8px; /* Rounded corners */
+}
+
+h2 {
+    color: #0f0e0d; /* Dark color for section headings */
+}
+
+h3 {
+    color: #131312; /* Dark color for section headings */
+}
+
+/* Project list styles */
+.project-list {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column;
+    gap: 15px; /* Space between projects */
+}
+
+.project {
+    border: 1px solid #ccc; /* Light border around projects */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding inside project boxes */
+    margin: 10px; /* Margin around project boxes */
+    width: 100%; /* Set width of project boxes */
+    background-color: #fdfafa; /* Lighter background for better contrast */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add subtle shadow for a 3D effect */
+}
+
+.project h3 {
+    color: #0c0c0b; /* Make project titles stand out */
+    font-weight: bold; /* Make the project title text bold */
+}
+
+.project a {
+    color: #007BFF; /* Make links stand out */
+    text-decoration: none;
+}
+.project a:hover {
+    text-decoration: underline;
+}
+
+.screenshots img {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.screenshots {
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    flex-wrap: wrap;
+}
+
+/* Styling for email link */
+#contact p a[href^="mailto:"] {
+    color: #007BFF; 
+}
+
+/* Styling for LinkedIn link */
+#contact ul li a[href*="linkedin"] {
+    color: #007BFF; 
+}
+
+/* Form styles */
+form {
+    display: flex; /* Use flexbox for form layout */
+    flex-direction: column; /* Arrange items vertically */
+}
+
+label {
+    margin-top: 10px; /* Space above labels */
+}
+
+/* Footer styles */
+footer {
+    text-align: center; /* Center text in footer */
+    background-color: #333; /* Dark background color */
+    color: white; /* White text color */
+    padding: 10px 0; /* Padding around footer */
+    position: relative;
+    margin-top: auto; /* Push footer to the bottom */
+    width: 100%;
+}
+
+button {
+    background: #35424a; /* Button background color */
+    color: white; /* Button text color */
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+    background: #454f5b; /* Darker shade on hover */
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #dddddd; /* Light border for inputs */
+    border-radius: 5px; /* Rounded corners */
+}

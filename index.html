@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kulbir Kaur - Portfolio</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Kulbir Kaur</h1> <!-- Main heading -->
+        <nav>
+            <ul>
+                <li><a href="#" class="nav-link" data-section="home">Home</a></li>
+                <li><a href="#" class="nav-link" data-section="about">About</a></li> <!-- Link to About section -->
+                <li><a href="#" class="nav-link" data-section="projects">Projects</a></li> <!-- Link to Projects section -->
+                <li><a href="#" class="nav-link" data-section="contact">Contact</a></li> <!-- Link to Contact section -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sections, initially hidden -->
+    <section id="home" class="page-section">
+        <h2>Welcome to My Portfolio</h2>
+        <p>Explore my projects, learn more about my skills, and feel free to get in touch.</p>
+    </section>
+
+    <section id="about" class="page-section">
+        <h2>About Me</h2>
+        <div class="about-container">
+        <p>I am Kulbir Kaur, a dedicated and results-driven software developer currently advancing my expertise in the Full Stack Software Development program at Lambton College in Sarnia, Ontario. My technical foundation spans HTML, CSS, JavaScript, Python, C#, SQL, and Java, enabling me to build dynamic, user-centric web applications that meet today’s business needs. With a robust full-stack skill set, I am proficient in frameworks such as React, Node.js, and Express, and experienced in MongoDB for scalable database management, alongside optimized SQL query writing to ensure system efficiency and data integrity.<br><br>
+
+        In every project, I prioritize high-quality code, performance optimization, and meticulous version control through Git, coupled with effective debugging practices. My hands-on experience with front-end and back-end development includes internships, personal initiatives, and freelance engagements, where I have consistently delivered impactful solutions that exceed client expectations.
+        Collaboration and teamwork are central to my professional philosophy. I am skilled in Agile methodologies, which streamline project timelines and foster effective cross-functional teamwork. Known for my problem-solving abilities and attention to detail, I excel at finding innovative solutions while staying focused on project goals. My strong interpersonal and communication skills further enhance my ability to collaborate effectively, ensuring seamless progress across diverse teams.<br><br>
+            
+        I am a continuous learner, proactively staying updated on emerging trends in cloud computing, DevOps, and AI to keep pace with the rapidly evolving tech landscape. My commitment to user-centered design ensures that my applications are both intuitive and engaging for end-users, combining functionality with an optimal user experience.
+            
+        As I expand my expertise, I am eager to contribute to innovative software solutions that bring tangible value to clients and users alike. My passion for technology and quality-driven approach drive me to make a meaningful impact in the tech community through reliable, innovative applications.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="page-section" >
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1: Flask Quiz Game</h3>
+            <p>The Flask Quiz Game is a web-based interactive quiz application developed using Python, Flask, JSON, and HTML. This project allows users to engage with a set of multiple-choice questions, providing a real-time scoring mechanism and a seamless user experience.</p>
+            <div class="screenshots">
+                <img src="images/Project1-home.png" alt="Flask Quiz Game Home Page">
+                <img src="images/Project1-quiz1.png" alt="Flask Quiz Game Quiz Page">
+                <img src="images/Project1-quiz2.png" alt="Flask Quiz Game Quiz Page">
+                <img src="images/Project1-result.png" alt="Flask Quiz Game Result Page">
+            </div>
+            <a href="https://github.com/Kulbir97/FlaskQuizGame.git" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Project 2: E-Commerce Flask Application</h3>
+            <p>This web application is developed using the Flask framework and integrates MongoDB Atlas for cloud-based, dynamic product data storage. It utilizes python-dotenv for secure management of environment variables, including database credentials. The frontend is built with HTML and CSS, providing an intuitive interface for users to interact with and view real-time product information.</p>
+            <div class="screenshots">
+                <img src="images/Project2-home.png" alt="E-Commerce Store Home Page">
+                <img src="images/Project2-products.png" alt="E-Commerce Store Products Page">
+                <img src="images/Project2-products2.png" alt="E-Commerce Store Products Page">
+            </div>
+            <p><a href="https://github.com/Kulbir97/flask_app" target="_blank">View Project</a></p>
+        </div>
+    </section>
+
+    <section id="contact" class="page-section" style="display: none;">
+        <h2>Contact</h2>
+        <p>If you have any questions or would like to get in touch, feel free to reach out through any of the following methods:</p>
+        
+        <h3>Email: </h3>
+        <p>You can send me an email at: <a href="mailto:Kulbir8421@gmail.com">Kulbir8421@gmail.com</a></p>
+
+        <h3>Contact Form:</h3>
+        <form id="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Your Name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Your Email">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+
+        <h3>Social Media</h3>
+        <p>You can also connect with me on LinkedIn:</p>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Kulbir Kaur. All rights reserved.</p> <!-- Footer with copyright -->
+    </footer>
+
+    <script src="script.js"></script> <!-- Link to the JavaScript file -->
+</body>
+</html>
